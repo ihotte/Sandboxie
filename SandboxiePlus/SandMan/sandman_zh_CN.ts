@@ -198,7 +198,7 @@
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="633"/>
         <source>On this page advanced sandbox options can be configured.</source>
-        <translation>本页面用于配置沙盒的高级选项</translation>
+        <translation>本页面用于配置沙盒的高级选项。</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="638"/>
@@ -288,7 +288,7 @@ To disable this template for a sandbox, simply uncheck it in the template list.<
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="681"/>
         <source>Using a custom Sandboxie Token allows to isolate individual sandboxes from each other better, and it shows in the user column of task managers the name of the box a process belongs to. Some 3rd party security solutions may however have problems with custom tokens.</source>
-        <translation>使用自定义沙盒令牌可以更好地将各个沙盒相互隔离，同时可以实现在任务管理器的用户栏中显示进程所属的沙盒。但是，某些第三方安全解决方案可能会与自定义令牌产生兼容性问题</translation>
+        <translation>使用自定义沙盒令牌可以更好地将各个沙盒相互隔离，同时可以实现在任务管理器的用户栏中显示进程所属的沙盒。但是，某些第三方安全解决方案可能会与自定义令牌产生兼容性问题。</translation>
     </message>
 </context>
 <context>
@@ -805,13 +805,13 @@ Please browse to the correct user profile directory.</oldsource>
     <message>
         <location filename="Wizards/TemplateWizard.cpp" line="460"/>
         <source>Browser could not be recognized, template cannot be created.</source>
-        <translation>无法识别浏览器类型，模板将无法被创建</translation>
+        <translation>无法识别浏览器类型，模板将无法被创建。</translation>
     </message>
     <message>
         <location filename="Wizards/TemplateWizard.cpp" line="507"/>
         <source>This browser name is already in use, please choose an other one.</source>
         <oldsource>This browser name is already in use, please chooe an other one.</oldsource>
-        <translation>该浏览器名称已被使用，请选择其他名称</translation>
+        <translation>该浏览器名称已被使用，请选择其他名称。</translation>
     </message>
 </context>
 <context>
@@ -824,7 +824,7 @@ Please browse to the correct user profile directory.</oldsource>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="240"/>
         <source>If you have a supporter certificate, please fill it into the field below.</source>
-        <translation>如果你有赞助者凭据，请填入以下字段</translation>
+        <translation>如果你有赞助者凭据，请填入以下字段。</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="262"/>
@@ -834,12 +834,12 @@ Please browse to the correct user profile directory.</oldsource>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="268"/>
         <source>Start evaluation without a certificate for a limited period of time.</source>
-        <translation>在没有赞助者凭据的情况下开始进行有限时间的试用</translation>
+        <translation>在没有赞助者凭据的情况下开始进行有限时间的试用。</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="296"/>
         <source>To use &lt;b&gt;Sandboxie-Plus&lt;/b&gt; in a business setting, an appropriate &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;support certificate&lt;/a&gt; for business use is required. If you do not yet have the required certificate(s), you can get those from the &lt;a href=&quot;https://xanasoft.com/shop/&quot;&gt;xanasoft.com web shop&lt;/a&gt;.</source>
-        <translation>要在商业环境中使用  &lt;b&gt;Sandboxie-Plus&lt;/b&gt; 高级设置，需要适用于商业用途的&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;赞助者凭据&lt;/a&gt;。如果你还没有所需的凭据，可以通过&lt;a href=&quot;https://xanasoft.com/shop/&quot;&gt;xanasoft.com 网络商店&lt;/a&gt;获取凭据</translation>
+        <translation>要在商业环境中使用 &lt;b&gt;Sandboxie-Plus&lt;/b&gt; 高级设置，需要适用于商业用途的 &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;赞助者凭据&lt;/a&gt;。如果你还没有所需的凭据，可以通过 &lt;a href=&quot;https://xanasoft.com/shop/&quot;&gt;xanasoft.com 网络商店&lt;/a&gt; 获取凭据。</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="310"/>
@@ -998,7 +998,7 @@ You can use %USER% to save each users sandbox to an own folder.</source>
         <oldsource>On this page the sandbox location and its behaviorue can be customized.
 You can use %USER% to save each users sandbox to an own fodler.</oldsource>
         <translation>本页面用于配置沙盒位置与行为
-可以使用 %USER% 来将用户拥有的沙盒存储到自身的用户目录下</translation>
+可以使用 %USER% 来将用户拥有的沙盒存储到自身的用户目录下。</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="512"/>
@@ -1049,7 +1049,7 @@ You can use %USER% to save each users sandbox to an own fodler.</oldsource>
         <location filename="Wizards/NewBoxWizard.cpp" line="606"/>
         <source>The selected box location is not a valid path.</source>
         <oldsource>The sellected box location is not a valid path.</oldsource>
-        <translation>所选的沙盒存储路径无效</translation>
+        <translation>所选的沙盒存储路径无效。</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="611"/>
@@ -1061,7 +1061,7 @@ You can use %USER% to save each users sandbox to an own fodler.</oldsource>
         <location filename="Wizards/NewBoxWizard.cpp" line="616"/>
         <source>The selected box location is not placed on a currently available drive.</source>
         <oldsource>The selected box location not placed on a currently available drive.</oldsource>
-        <translation>所选的沙盒存储路径所在的驱动器当前不可用</translation>
+        <translation>所选的沙盒存储路径所在的驱动器当前不可用。</translation>
     </message>
 </context>
 <context>
@@ -1074,7 +1074,7 @@ You can use %USER% to save each users sandbox to an own fodler.</oldsource>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="721"/>
         <source>Almost complete, click Finish to apply all selected options and conclude the wizard.</source>
-        <translation>所有设置基本完成了，点击 &quot;完成&quot;，应用所有选定的选项，并结束此向导</translation>
+        <translation>所有设置基本完成了，点击 &quot;完成&quot;，应用所有选定的选项，并结束此向导。</translation>
     </message>
     <message>
         <source>Keep Sandboxie-Plus up to date.</source>
@@ -1091,7 +1091,7 @@ You can use %USER% to save each users sandbox to an own fodler.</oldsource>
     <message>
         <location filename="Wizards/TemplateWizard.cpp" line="950"/>
         <source>Almost complete, click Finish to create a new  Web Browser Template and conclude the wizard.</source>
-        <translation>差不多设置好了，点击“完成”按钮，创建一个新的网络浏览器模板，并结束向导</translation>
+        <translation>差不多设置好了，点击“完成”按钮，创建一个新的网络浏览器模板，并结束向导。</translation>
     </message>
     <message>
         <location filename="Wizards/TemplateWizard.cpp" line="968"/>
@@ -1174,7 +1174,7 @@ You can use %USER% to save each users sandbox to an own fodler.</oldsource>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="165"/>
         <source>Welcome to the Setup Wizard. This wizard will help you to configure your copy of &lt;b&gt;Sandboxie-Plus&lt;/b&gt;. You can start this wizard at any time from the Sandbox-&gt;Maintenance menu if you do not wish to complete it now.</source>
-        <translation>欢迎来到设置向导，本向导将帮助配置你的 &lt;b&gt;Sandboxie-Plus&lt;/b&gt; 副本设置。如果你不希望现在就完成向导设置，你可以从 “沙盒 -&gt; 维护”菜单中随时重新启动此向导</translation>
+        <translation>欢迎来到设置向导，本向导将帮助配置你的 &lt;b&gt;Sandboxie-Plus&lt;/b&gt; 副本设置。如果你不希望现在就完成向导设置，你可以从 “沙盒 -&gt; 维护”菜单中随时重新启动此向导。</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="174"/>
@@ -2367,7 +2367,7 @@ Please select a folder which contains this file.</source>
     <message>
         <location filename="Windows/PopUpWindow.h" line="54"/>
         <source>Visit %1 for a detailed explanation.</source>
-        <translation>访问 %1 以查阅详细说明</translation>
+        <translation>访问 %1 以查阅详细说明。</translation>
     </message>
     <message>
         <location filename="Windows/PopUpWindow.h" line="65"/>
@@ -2564,7 +2564,7 @@ The file was written by: %3</source>
     <message>
         <location filename="Windows/PopUpWindow.cpp" line="383"/>
         <source>an UNKNOWN process.</source>
-        <translation>未知进程</translation>
+        <translation>未知进程。</translation>
     </message>
     <message>
         <location filename="Windows/PopUpWindow.cpp" line="383"/>
@@ -2606,7 +2606,7 @@ Full path: %4</source>
         <location filename="SandManRecovery.cpp" line="333"/>
         <source>The following files were recently recovered and moved out of a sandbox.</source>
         <oldsource>the following files were recently recovered and moved out of a sandbox.</oldsource>
-        <translation>以下是最近被恢复并移出沙盒的文件</translation>
+        <translation>以下是最近被恢复并移出沙盒的文件。</translation>
     </message>
 </context>
 <context>
@@ -2681,7 +2681,7 @@ Full path: %4</source>
     <message>
         <location filename="Windows/RecoveryWindow.cpp" line="297"/>
         <source>There are %1 new files available to recover.</source>
-        <translation>有 %1 个新文件可供恢复</translation>
+        <translation>有 %1 个新文件可供恢复。</translation>
     </message>
     <message>
         <location filename="Windows/RecoveryWindow.cpp" line="582"/>
@@ -2692,7 +2692,7 @@ Full path: %4</source>
         <location filename="Windows/RecoveryWindow.cpp" line="588"/>
         <source>There are %1 files and %2 folders in the sandbox, occupying %3 of disk space.</source>
         <oldsource>There are %1 files and %2 folders in the sandbox, occupying %3 bytes of disk space.</oldsource>
-        <translation>此沙盒中共有 %1 个文件和 %2 个文件夹，占用了 %3 磁盘空间</translation>
+        <translation>此沙盒中共有 %1 个文件和 %2 个文件夹，占用了 %3 磁盘空间。</translation>
     </message>
 </context>
 <context>
@@ -3439,7 +3439,7 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
     <message>
         <location filename="SandMan.cpp" line="1089"/>
         <source>&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=patreon&quot;&gt;Support Sandboxie-Plus on Patreon&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=patreon&quot;&gt;在 Patreon 上捐赠 Sandboxie-Plus&lt;/a&gt;</translation>
+        <translation>&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=patreon&quot;&gt;&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1090"/>
@@ -3491,18 +3491,18 @@ Do you want to do the clean up?</source>
         <location filename="SandMan.cpp" line="1555"/>
         <source>This box provides &lt;a href=&quot;sbie://docs/security-mode&quot;&gt;enhanced security isolation&lt;/a&gt;, it is suitable to test untrusted software.</source>
         <oldsource>This box provides enhanced security isolation, it is suitable to test untrusted software.</oldsource>
-        <translation>此类沙盒提供增强的安全隔离，它适用于测试不受信任的软件</translation>
+        <translation>此类沙盒提供增强的安全隔离，它适用于测试不受信任的软件。</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1559"/>
         <source>This box provides standard isolation, it is suitable to run your software to enhance security.</source>
-        <translation>此类沙盒提供标准的隔离，它适用于以安全的方式来运行你的软件</translation>
+        <translation>此类沙盒提供标准的隔离，它适用于以安全的方式来运行你的软件。</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1563"/>
         <source>This box does not enforce isolation, it is intended to be used as an &lt;a href=&quot;sbie://docs/compartment-mode&quot;&gt;application compartment&lt;/a&gt; for software virtualization only.</source>
         <oldsource>This box does not enforce isolation, it is intended to be used as an application compartment for software virtualization only.</oldsource>
-        <translation>此类沙盒不执行隔离，它的目的是将一个应用程序虚拟化</translation>
+        <translation>此类沙盒不执行隔离，它的目的是将一个应用程序虚拟化。</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1571"/>
@@ -3510,7 +3510,7 @@ Do you want to do the clean up?</source>
         <oldsource>
 
 This box &lt;a href=&quot;sbie://docs/privacy-mode&quot;&gt;prevents access to all user data&lt;/a&gt; locations, except explicitly granted in the Resource Access options.</oldsource>
-        <translation>此类沙盒将限制沙盒内程序对沙盒外数据的访问，除非在资源访问选项中明确授权</translation>
+        <translation>此类沙盒将限制沙盒内程序对沙盒外数据的访问，除非在资源访问选项中明确授权。</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1675"/>
@@ -4995,7 +4995,7 @@ Error: %1</source>
     <message>
         <location filename="Views/SbieView.cpp" line="239"/>
         <source>Disable Force Rules</source>
-        <translation>禁用“强制必沙规则”</translation>
+        <translation>禁用 “强制必沙规则”</translation>
     </message>
     <message>
         <location filename="Views/SbieView.cpp" line="244"/>
@@ -6197,13 +6197,13 @@ If you are a great patreaon supporter already, sandboxie can check online for an
         <location filename="Windows/SupportDialog.cpp" line="200"/>
         <source>Please continue &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-renew-cert&quot;&gt;supporting the project&lt;/a&gt; by renewing your &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt; and continue using the &lt;b&gt;enhanced functionality&lt;/b&gt; in new builds.</source>
         <oldsource>Please continue &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;supporting the project&lt;/a&gt; by renewing your &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt; and continue using the &lt;b&gt;enhanced functionality&lt;/b&gt; in new builds.</oldsource>
-        <translation>请考虑继续 &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;捐赠支持该项目&lt;/a&gt;，以续签 &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;赞助者凭据&lt;/a&gt;，从而继续使用新构建版本中的增强功能</translation>
+        <translation>请考虑继续 &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;捐赠支持该项目&lt;/a&gt;，以续签 &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;赞助者凭据&lt;/a&gt;，从而继续使用新构建版本中的增强功能。</translation>
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="203"/>
         <source>Sandboxie &lt;u&gt;without&lt;/u&gt; a valid supporter certificate will sometimes &lt;b&gt;&lt;font color=&apos;red&apos;&gt;pause for a few seconds&lt;/font&gt;&lt;/b&gt;. This pause allows you to consider &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-obtain-cert&quot;&gt;purchasing a supporter certificate&lt;/a&gt; or &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-contribute&quot;&gt;earning one by contributing&lt;/a&gt; to the project. &lt;br /&gt;&lt;br /&gt;A &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt; not just removes this reminder, but also enables &lt;b&gt;exclusive enhanced functionality&lt;/b&gt; providing better security and compatibility.</source>
         <oldsource>Sandboxie &lt;u&gt;without&lt;/u&gt; a valid supporter certificate will sometimes &lt;b&gt;&lt;font color=&apos;red&apos;&gt;pause for a few seconds&lt;/font&gt;&lt;/b&gt;, to give you time to contemplate the option of &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;supporting the project&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;A &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt; not just removes this reminder, but also enables &lt;b&gt;exclusive enhanced functionality&lt;/b&gt; providing better security and compatibility.</oldsource>
-        <translation>Sandboxie &lt;u&gt;在没有&lt;/u&gt;有效的赞助者凭据时有时会&lt;b&gt;&lt;font color=&apos;red&apos;&gt;弹窗提醒&lt;/font&gt;&lt;/b&gt;，让您考虑是否&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;捐赠支持此项目&lt;/a&gt;(但不会中断不需要赞助着凭据的沙盒内的程序)，&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;赞助者凭据&lt;/a&gt;不仅可以消除这种提醒，还可以 &lt;b&gt;提供特殊的增强功能&lt;b&gt;，实现更好的安全性和兼容性</translation>
+        <translation>Sandboxie &lt;u&gt;在没有&lt;/u&gt;有效的赞助者凭据时有时会&lt;b&gt;&lt;font color=&apos;red&apos;&gt;弹窗提醒&lt;/font&gt;&lt;/b&gt;，让您考虑是否&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;捐赠支持此项目&lt;/a&gt;(但不会中断不需要赞助着凭据的沙盒内的程序)，&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;赞助者凭据&lt;/a&gt;不仅可以消除这种提醒，还可以 &lt;b&gt;提供特殊的增强功能&lt;b&gt;，实现更好的安全性和兼容性。</translation>
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="233"/>
@@ -6517,7 +6517,7 @@ If you are a great patreaon supporter already, sandboxie can check online for an
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="383"/>
         <source>Select the user interface style you prefer.</source>
-        <translation>选择您喜欢的用户界面风格</translation>
+        <translation>选择您喜欢的用户界面风格。</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="387"/>
@@ -9462,7 +9462,7 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
     <message>
         <location filename="Forms/SnapshotsWindow.ui" line="101"/>
         <source>When deleting a snapshot content, it will be returned to this snapshot instead of none.</source>
-        <translation>当删除一个快照时，它将被回退到此快照创建时的状态，而不是直接清空</translation>
+        <translation>当删除一个快照时，它将被回退到此快照创建时的状态，而不是直接清空。</translation>
     </message>
     <message>
         <location filename="Forms/SnapshotsWindow.ui" line="104"/>
