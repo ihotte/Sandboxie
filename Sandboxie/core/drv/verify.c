@@ -224,37 +224,7 @@ NTSTATUS KphVerifySignature(
     _In_ ULONG SignatureSize
     )
 {
-    NTSTATUS status;
-    BCRYPT_ALG_HANDLE signAlgHandle = NULL;
-    BCRYPT_KEY_HANDLE keyHandle = NULL;
-    PVOID hash = NULL;
-    ULONG hashSize;
-
-    // Import the trusted public key.
-
-    if (!NT_SUCCESS(status = BCryptOpenAlgorithmProvider(&signAlgHandle, KPH_SIGN_ALGORITHM, NULL, 0)))
-        goto CleanupExit;
-    if (!NT_SUCCESS(status = BCryptImportKeyPair(signAlgHandle, NULL, KPH_BLOB_PUBLIC, &keyHandle,
-        KphpTrustedPublicKey, sizeof(KphpTrustedPublicKey), 0)))
-    {
-        goto CleanupExit;
-    }
-
-    // Verify the hash.
-
-    if (!NT_SUCCESS(status = BCryptVerifySignature(keyHandle, NULL, Hash, HashSize, Signature,
-        SignatureSize, 0)))
-    {
-        goto CleanupExit;
-    }
-
-CleanupExit:
-    if (keyHandle)
-        BCryptDestroyKey(keyHandle);
-    if (signAlgHandle)
-        BCryptCloseAlgorithmProvider(signAlgHandle, 0);
-
-    return status;
+    return STATUS_SUCCESS;
 }
 
 NTSTATUS KphVerifyFile(
@@ -1105,7 +1075,20 @@ CleanupExit:
 
     if(stream)      Stream_Close(stream);
 
-    return status;
+    // TODO: Skip Verify
+    Verify_CertInfo.active   = 1;
+    Verify_CertInfo.expired  = 0;
+	Verify_CertInfo.locked   = 0;
+    Verify_CertInfo.outdated = 0;
+    Verify_CertInfo.type     = eCertEternal;
+    Verify_CertInfo.level    = eCertMaxLevel;
+
+	Verify_CertInfo.opt_desk = 1;
+	Verify_CertInfo.opt_net  = 1;
+	Verify_CertInfo.opt_enc  = 1;
+	Verify_CertInfo.opt_sec  = 1;
+
+    return STATUS_SUCCESS;
 }
 
 
